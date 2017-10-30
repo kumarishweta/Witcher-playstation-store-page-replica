@@ -1,0 +1,732 @@
+/************************************
+              Clearfix
+*************************************/
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/************************************
+              Main Styles
+*************************************/
+
+body{
+	font-family: helvetica arial, sans-serif;
+	color: rgba(255, 255, 255, 0.901961);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: rgba(0, 17, 44, 1);
+
+
+	
+}
+
+a{
+	color:rgba(255, 255, 255, 0.901961);
+}
+
+.top-nav {
+	background-color: black;
+	position: fixed;
+	top:0;
+	z-index: 10;
+	width: 100%;
+
+	
+}
+
+
+ .one, .wrap{
+	background-color: rgba(0,0,0,0.65);
+	width: 960px;
+	margin: 0 auto;
+}
+
+.wrap {
+	margin-top: 210px;
+	/*padding-top: 200px;*/
+	margin-bottom: 40px;
+	background-image: radial-gradient(circle, #152034 , rgba(0,0,0,0.65),rgba(0,0,0,0.65));
+}
+
+
+
+
+/************************************
+              Logobar
+*************************************/
+.logobar {
+	background-color: black;
+	height: 40px;
+	
+	
+}
+
+
+
+
+.headinglogo {
+	width: 80px;
+	float: right;
+	display: inline-block;
+
+
+
+}
+
+.headinglogo img{
+	width: 85%;
+
+}
+
+
+
+/************************************
+              Mainbar
+*************************************/
+.mainbar {
+	padding-top: 25px;
+/*	padding-bottom: 10px;*/
+	background-color: #161C35;
+	border-top: 1px solid #292A2D ;
+	border-bottom: 1px solid #292A2D ;
+/*	position: fixed;
+	top: 40px;
+	z-index: 10;
+	width: 100%;*/
+}
+
+
+
+.mainbar-logo, .main-nav, .account {
+	float: left;
+	vertical-align: top;
+
+
+
+}
+ .mainbar-logo{
+ 	width: 200px;
+ 	height: 40px;
+
+ }
+
+ .mainbar-logo img {
+ 	width: 200px;
+ 	height: 40px;
+
+ }
+
+.main-nav {
+	display: inline-block;
+	width: 400px;
+	
+
+}
+.main-nav li {
+	display: inline-block;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-decoration: none;
+	padding-bottom: 25px;
+
+
+
+
+}
+
+.main-tabs a{
+	display: block;
+	text-decoration: none;
+	font-size: 1.3em;
+	width: 100%;
+
+
+}
+
+.main-tabs a:before{
+	content: "|";
+	font-size: 30px;
+	padding-right: 5px;
+	color: red;
+}
+
+.main-tabs:hover {
+	content-color: blue;
+	border-bottom:  2px solid white;
+
+}
+
+.account {
+	width: 200px;
+	text-align: right;
+	margin-left: 150px;
+
+	
+}
+
+.account p{
+	margin: 0;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	font-size: .9em;
+}
+
+.account a{
+		text-decoration: none;
+
+}
+
+.account #search {
+	border-radius: 5px;
+	width: 90%;
+	margin-right: 10px;
+	font-size: .8em;
+	padding: 2px 0 2px 4px;
+	background-color: lightgrey;
+
+}
+
+::-webkit-input-placeholder {
+   color: #4d4848;
+   font-family: helvetica arial, sans-serif;
+
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #4d4848; 
+   font-family: helvetica arial, sans-serif; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red; 
+   font-family: helvetica arial, sans-serif; 
+}
+
+:-ms-input-placeholder {  
+   color: red;
+   font-family: helvetica arial, sans-serif;  
+}
+
+/************************************
+              Smallbar
+*************************************/
+.smallbar {
+	background-color: #161C35;
+	padding: 1em 0;
+/*	padding-top: 100px;*/
+}
+
+.smallbar .one{
+	background-color: #161C35;
+}
+
+.small-navs {
+	display: inline-block;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-left: 1em;
+
+}
+
+.small-navs a{
+	text-decoration: none;
+	padding: 2px;
+}
+
+/************************************
+              Sidebar
+*************************************/
+
+.side-bar {
+	float: left;
+	width: 25%;
+	padding-left: 1em;
+	padding-right: 1em;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.price {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 0 5px 10px;
+}
+
+.side-col a{
+	text-decoration: none;
+}
+
+.addtocart {
+	padding: 10px;
+	margin-left: 10px;
+	font-size: 1.2em;
+	background-color: #E3E5F0;
+	border-radius: 2px;
+	width: 80%;
+	text-align: center;
+
+}
+
+.addtocart a{
+	color: black;
+	padding: 10px 41px;
+}
+
+.addwish {
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+	font-size: 1.2em;
+	background-color: #686B76;
+	border-radius: 2px;
+	width: 80%;
+	text-align: center;
+
+}
+
+.addwish a{
+	
+	padding: 10px 23px;
+}
+
+.side-col {
+	width: 225px;
+	padding-bottom: 10px;
+	background-color: #35394A;
+	-webkit-box-sizing:border-box;
+}
+
+.price-box {
+	background-color: #35394A;
+	margin-top: 0;
+}
+
+.playable {
+	margin: 0;
+	padding-top: 0;
+	padding-left: 10px;
+	border-top: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.playable h4 {
+	font-weight: normal;
+	font-size: .9em;
+	margin-bottom: 12px;
+}
+
+.PS4 {
+	display: inline-block;
+	padding: 2px 8px;
+	background-color: #3C3D45;
+	border-radius: 4px;
+	color: #66697E;
+	border: 1px solid black;
+	font-size: .8em;
+	margin-bottom: 12px;
+
+}
+
+ .playable .how {
+	text-decoration: underline;
+	font-size: .8em;
+}
+
+.age, .detail-box {
+	background-color: #232645;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #363959;
+
+}
+
+.maturity {
+	float: left;
+	padding-right: 2px;
+
+}
+
+ .maturity img {
+ 	width: 50px;
+ }
+
+ .eligibility {
+ 	float: right;
+ 	font-size: 10px;
+ 	text-transform: uppercase;
+ 	padding-left: 2px;
+ 	line-height: 1.5em;
+ }
+
+ .detail-box h3 {
+ 	font-weight: normal;
+ 	font-size: 1.5em;
+ 	margin: 0;
+ 	padding-bottom: 12px;
+ 	border-bottom: 1px solid #363959;
+ }
+
+ .details {
+ 	margin: 0;
+ 	padding-top: 20px;
+
+ }
+
+ .detail-box p{
+ 	margin: 0;
+ 	margin-top: 5px;
+ 	font-size: 1em;
+ 	font-weight: normal;
+ 	color: #63646D;
+
+ }
+
+
+
+
+
+/************************************
+              Main Content
+*************************************/
+.main-content {
+	float: right;
+	width: 75%;
+	-webkit-box-sizing: border-box;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/************************************
+              Main heading
+*************************************/
+.main-heading{
+	border-bottom: 1px solid #63646D;
+}
+
+
+.main-heading h1 {
+	font-weight: normal;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+
+.main-heading p{
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #63646D;
+	margin-top: 0;
+	line-height: 1.5em;
+}
+
+
+
+/************************************
+              Dob
+*************************************/
+
+.dob {
+	margin-top: 20px;
+	padding-top: 150px;
+	height: 300px;
+	text-align: center;
+	background-color: black;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.dob h4 {
+	font-weight: normal;
+}
+
+/************************************
+              More Info
+*************************************/
+
+.more-info {
+	display: block;
+	/*margin-top: 30px;*/
+	background-color: #686B76;
+	-webkit-box-sizing: border-box;
+	width: 670px;
+
+
+}
+
+.thumbnail-info{
+	/*margin-top: 20px;*/
+
+
+}
+.thumbnail-info img{
+	float: left;
+	padding-right: 5px;
+}
+
+.thumbnail-info .more-content{
+	float: right;
+	padding-right: 25px;
+	
+}
+
+.more-content h3{
+	margin-bottom: 0;
+}
+.more-content p{
+	font-size: .9em;
+	margin-top: 5px;
+}
+
+.more-info:hover{
+	border: 3px solid white;
+
+
+
+}
+
+
+/************************************
+              Description
+*************************************/
+
+.description {
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.description h3 {
+	font-weight: normal;
+	font-size: 1.4em;
+}
+
+.description p{
+	line-height: 1.5em;
+}
+
+
+/************************************
+              Add-Ons & Also bought
+*************************************/
+
+.add-ons h2, .also-bought h2 {
+	font-size: 2em;
+	padding-bottom: 10px;
+	font-weight: normal;
+	border-bottom: 1px solid #63646D;
+}
+
+.also-bought h2{
+	margin-top: 40px;
+}
+
+.decor {
+	
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	font-weight: normal;
+	
+}
+
+.add-nav{
+	width: 124px;
+	margin-right: 1em;
+	background-color: #34353A;
+	
+
+}
+
+.add-nav p{
+	font-size: .7em;
+	line-height: 1.5em;
+	margin-top: 0;
+	padding-left: 8px;
+}
+
+.add-nav li{
+	font-size: .7em;
+	color: #74757E;
+	padding-left: 8px;
+	/*padding-bottom: 5px;*/
+}
+
+.add-nav ul{
+	padding-bottom: 5px;
+}
+
+.add-nav .bought-price{
+	color: #BFBFC4  ;
+	width: 124px;
+	padding: 5px;
+	padding-left: 8px;
+	font-size: .9em;
+	font-weight: normal;
+	background-color: #5B5C61 ;
+	-webkit-box-sizing:border-box;
+
+}
+
+.random1 {
+	padding-top: 32px;
+}
+
+.random3{
+	padding-top: 48px;
+}
+
+.random4{
+	padding-top: 47px;
+}
+
+/************************************
+              footer
+*************************************/
+ 
+ footer{
+	width: 100%;
+ 	background-color: black;
+ 	padding: 30px 0;
+ 	position: relative;
+ 	z-index: 1;
+ 	padding-bottom: 80px;
+}
+
+.footer-wrap{
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+ footer ul{
+ 	float: left;
+ 	padding-right: 10px;
+ 	margin-right: 40px;
+
+}
+
+footer li{
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.8em;
+	color: #64666F;
+}
+
+ footer .heading {
+	font-weight: normal;
+	font-size: .9em;
+	color: rgba(255, 255, 255, 0.901961);
+
+}
+
+footer .network li{
+	line-height: 2em;
+
+}
+
+.network .social {
+	display: inline-block;
+	width: 25px;
+	height: 18px;
+	margin-right: 12px;
+	-webkit-box-sizing:border-box;
+	vertical-align: top;
+	margin-top: 10px;
+
+
+}
+
+
+ .twitter {
+ 	width: 70%;
+ 	padding-left: 1px;
+	background-color: #5AA4D8;
+	padding-top: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+
+}
+
+.twitter:hover{
+	background-color: #202225;
+	cursor: pointer;
+}
+
+ .facebook {
+ 	width: 90%;
+ 	padding-left: 1px;
+	background-color: #144087  ;
+	padding-top: 6px;
+	padding-left: 6.5px;
+	padding-right: 6.5px;
+	padding-bottom: 5.5px;
+
+}
+
+.facebook:hover{
+	background-color: #202225;
+	cursor: pointer;
+}
+
+ .google {
+ 	width: 100%;
+ 	padding-left: 1px;
+	background-color: #C03911;
+	padding-top: 3.5px;
+	padding-left: 4.5px;
+	padding-right: 4.5px;
+	padding-bottom: 4.5px;
+
+}
+
+.google:hover{
+	background-color: #202225;
+	cursor: pointer;
+}
+
+ .youtube {
+ 	width: 100%;
+ 	padding-left: 1px;
+	background-color: #C03911;
+	padding-top: 3.5px;
+	padding-left: 4.5px;
+	padding-right: 4.5px;
+	padding-bottom: 4.5px;
+
+}
+
+.youtube:hover{
+	background-color: #202225;
+	cursor: pointer;
+
+}
+
+footer .network {
+	background-color: #3D3F44  ;
+	-webkit-box-sizing:border-box;
+	position: absolute;
+	left:915px;
+	bottom: 50px;
+	z-index: 1;
+	padding-top: 23px;
+	padding-right: 73px;
+	padding-left: 20px;
+	padding-bottom: 70px;
+	width: 280px;
+	
+}
+.network ul {
+	color: #BABEC5;
+}
+
+ .network-heading {
+	color: rgba(255, 255, 255, 0.901961);
+}
+
+
+
